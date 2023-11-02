@@ -1,2 +1,2 @@
-# Disme-Bot
-Src miraiv2
+# Zuri-Bot
+Anh là Phạm Minh Đồng
