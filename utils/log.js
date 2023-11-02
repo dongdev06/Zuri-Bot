@@ -55,13 +55,13 @@ module.exports.banner = (data) => {
 module.exports.loader = (data, option) => {
 	switch (option) {
 		case "warn":
-			process.stderr.write(chalk.hex("#ff5208")(`\r» Disme Project « `) + data + '\n');
+			process.stderr.write(chalk.hex("#ff5208")(`\r» Zuri Project « `) + data + '\n');
 			break;
 		case "error":
-			process.stderr.write(chalk.bold.hex("#ff0000").bold(`\r» Disme Project « `) + data + '\n');
+			process.stderr.write(chalk.bold.hex("#ff0000").bold(`\r» Zuri Project « `) + data + '\n');
 			break;
 		default:
-			process.stderr.write(chalk.cyan(`\r» Disme Project « `) + data + '\n');
+			process.stderr.write(chalk.cyan(`\r» Zuri Project « `) + data + '\n');
 			break;
 	}
 }
